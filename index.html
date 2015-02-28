@@ -3,13 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Hugo Mora</title>
-	<link rel="stylesheet" type="text/css" href="./css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
 
 	<header>
 		<figure class="foto-perfil">
-			<img class="img-foto-perfil" src="./images/me.jpg" alt="Yo" width="140px" />
+			<img class="img-foto-perfil" src="images/me.jpg" alt="Yo" width="140px" />
 		</figure>
 		<div class="Yo">
 			<h1 class="nombre"> Hugo Mora </h1>
@@ -17,11 +17,11 @@
 		</div>
 		<!-- boton de inicio -->
 		<div class="conoceme">
-			<p><a href="">Conóceme</a></p>
+			<p id="boton">Conóceme</p>
 		</div>
 	</header>
 
-	<section class="contenido contenido-oculto">
+	<section class="contenido" id="contenido">
 
 		<!-- primer item -->
 		<div class="item" id="one">
@@ -38,15 +38,14 @@
 				Mi fuerte es el Backend pero soy flexible en general. Sé Html5 y Css3, Python y Django, JavaScript y NodeJS, y más.
 			</p>
 
-			<!-- Flecha al siguiente -->
-			<div class="siguiente">
-			<a href="#two"></a>
-			</div>
+			<!-- Flecha volver -->
+			<p class="icon-volver" id="volver"></p>
 		</div>
 
 		<div class="item">
 
 	</section>
-
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/acciones.js"></script>
 </body>
 </html>
