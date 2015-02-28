@@ -55,7 +55,6 @@ header {
 }
 
 .conoceme {
-	overflow: hidden;
 	text-align: center;
 	padding-bottom: 50px;
 }
@@ -79,7 +78,6 @@ header {
 	margin-top: 2%;
 	margin-left: 15%;
 	margin-right: 15%;
-	overflow: hidden;
 	position: absolute;
 	display: none;
 }
