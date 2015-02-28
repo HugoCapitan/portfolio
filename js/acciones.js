@@ -13,4 +13,4 @@ function ocultarContenido() {
 }
 
 $boton.click( mostrarContenido );
-$volver.click( ocultarContenido )
+$volver.click( ocultarContenido );

@@ -168,3 +168,47 @@ header {
 	cursor: pointer;
 	font-size: 1em;
 }
+
+@media screen and (max-width: 800px) {
+	body {
+		background-size: 300%;
+		background-position: center;
+		font-size: 11pt;
+	}
+
+	.contenido {
+		font-size: 16px;
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 0;
+		height: 100%;
+		padding-top: auto;
+		padding-bottom: auto;
+	}
+
+	.item {
+		margin-top: 0;
+	}
+
+	.item-contenido {
+		margin-top: 0;
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+
+	.nombre {
+		margin-left: 0;
+		margin-right: 0;
+		padding-bottom: 1em;
+	}
+	
+	.movil {
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.mail {
+		width: 100%;
+		margin-left: 0;
+	}
+}
