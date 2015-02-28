@@ -1,0 +1,165 @@
+@import url("http://fonts.googleapis.com/css?family=Raleway:400,400italic,700,800");
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?ffhypz');
+	src:url('fonts/icomoon.eot?#iefixffhypz') format('embedded-opentype'),
+		url('fonts/icomoon.woff?ffhypz') format('woff'),
+		url('fonts/icomoon.ttf?ffhypz') format('truetype'),
+		url('fonts/icomoon.svg?ffhypz#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-size: 2em;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	text-decoration: none;
+	color: #6f7577;
+}
+
+body {
+	background-image: url('../images/bg.jpg');
+	background-size: 100%;
+	background-position: 0% 23%;
+	background-attachment: fixed;
+	color: #6f7577;
+	font-family: "Raleway", "Helvetica", sans-serif;
+	font-size: 15pt;
+	font-weight: 400;
+	line-height: 1.75em;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+
+header {
+	color: white;
+	margin-top: 20px;
+	position: fixed;
+	width: 100%;
+}
+
+.conoceme {
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.conoceme a {
+	color: white;
+	background-color: #5BAB80;
+	border-radius: 7px;
+	padding: 20px 30px 20px 30px;
+}
+
+.conoceme p {
+	margin-top: 55px;
+}
+
+.contenido {
+	background-color: white;
+	height: 92%;
+	margin-top: 2%;
+	margin-left: 15%;
+	margin-right: 15%;
+	overflow: hidden;
+	position: absolute;
+}
+
+.contenido-oculto {
+	display: none;
+}
+
+.foto-perfil{
+	margin-bottom: 50px;
+}
+
+.img-foto-perfil {
+	border: 3px solid white;
+	border-radius: 70px;
+}
+
+.item {
+	margin-top: 50px;
+}
+
+.item-contenido {
+	margin-top: 3em;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.nombre {
+	margin-left: 35%;
+	margin-right: 35%;
+	padding-bottom: 1em;
+}
+
+.links {
+	padding-top: 4em;
+}
+
+.links a {
+	margin-left: 20px;
+	margin-right: 20px;
+	color: #5BAB80;
+	transition: 0.5s;
+}
+
+.links a:hover {
+	color: #6f7577;
+	transition: 0.5s;
+	transform: rotate(360deg);
+}
+
+.movil{
+	font-size: 1em;
+	float: left;
+	width: 35%;
+	margin-right: 15%;
+}
+
+.mail {
+	font-size: 1em;
+	float: left;
+	width: 35%;
+	margin-left: 15%;
+}
+
+.icon-google:before {
+	content: "\ea8a";
+}
+
+.icon-twitter:before {
+	content: "\ea93";
+}
+
+.icon-github:before {
+	content: "\eab1";
+}
+
+.icon-movil:before {
+	color: #5BAB80;
+	content: "\e942";
+}
+
+.icon-mail:before {
+	color: #5BAB80;
+	content: "\e907";
+}

@@ -1,126 +1,52 @@
-<!DOCTYPE HTML>
-<!--
-	Highlights by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Hugo Mora</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.scrollex.min.js"></script>
-		<script src="js/jquery.scrolly.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-xlarge.css" />
-		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-	</head>
-	<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hugo Mora</title>
+	<link rel="stylesheet" type="text/css" href="./css/estilos.css">
+</head>
+<body>
 
-		<!-- Header -->
-			<section id="header">
-				<header class="major">
-					<h1>Hugo Mora</h1>
-					<p>Listo para convertir tus proyectos en <strong>Éxito</strong></p>
-				</header>
-				<div class="container">
-					<ul class="actions">
-						<li><a href="#one" class="button special scrolly">Conoceme</a></li>
-					</ul>
-				</div>
-			</section>
+	<header>
+		<figure class="foto-perfil">
+			<img class="img-foto-perfil" src="./images/me.jpg" alt="Yo" width="140px" />
+		</figure>
+		<div class="Yo">
+			<h1 class="nombre"> Hugo Mora </h1>
+			<p class="presentacion"> Listo para convertir tus proyectos en <strong>Éxito</strong></p>
+		</div>
+		<!-- boton de inicio -->
+		<div class="conoceme">
+			<p><a href="#one-title">Conóceme</a></p>
+		</div>
+	</header>
 
-			<section id="one" class="main special">
-				<div class="container">
-					<div class="content">
-						<header class="major">
-							<h2>Quien soy</h2>
-						</header>
-						<p>Un programador joven, con muchas ganas de aprender, ayudar y transformar el mundo en el que vivimos. Listo para cualquier reto que sea desafiante y me llene de emoción</p>
-					</div>
-					<a href="#two" class="goto-next scrolly">Siguiente</a>
-				</div>
-			</section>
+	<section class="contenido">
 
-			<section id="two" class="main special">
-				<div class="container">
-					<div class="content">
-						<header class="major">
-							<h2>Habilidades</h2>
-						</header>
-						<p>Quieres saber de que soy capaz? Mi fuerte es el Backend pero soy flexible en general</p>
-						<ul class="icons-grid">
-							<li>
-								<span class="icon major fa-camera-retro"></span>
-								<h3>Creativo</h3>
-							</li>
-							<li>
-								<span class="icon major fa-pencil"></span>
-								<h3>Organizado</h3>
-							</li>
-							<li>
-								<span class="icon major fa-code"></span>
-								<h3>Inteligente</h3>
-							</li>
-							<li>
-								<span class="icon major fa-coffee"></span>
-								<h3>Incansable</h3>
-							</li>
-						</ul>
-						<p>Sé Html5 y Css3, Python y Django, JavaScript y NodeJS</p>
-					</div>
-					<a href="#three" class="goto-next scrolly">Siguiente</a>
-				</div>
-			</section>
-			<section id="footer">
-				<div class="container">
-					<header class="major">
-						<h2>Contáctame</h2>
-					</header>
-						<p>
-							Si estas buscando a alguien que resuelva tus problemas, solo llámame.
-							<br />
-							Movil: +52 5525328128
-							<br />
-							<br />
-							Encuentrame en cualquiera de estas redes:
-						</p>
+		<!-- primer item -->
+		<div class="item" id="one">
+			<p class="icon-mail mail"> hmoravilez@gmail.com </p><p class="icon-movil movil"> +52 5525328128 </p>
+			<p class="links">
+			<a href="" class="icon-github"></a>
+			<a href="" class="icon-twitter"></a>
+			<a href="" class="icon-google"></a>
+			</p>
+			<p class="item-contenido">
+				Un programador joven, con muchas ganas de aprender, ayudar y transformar el mundo en el que vivimos. Listo para cualquier reto que sea desafiante y me llene de emoción.
+			</p>
+			<p class="item-contenido">
+				Mi fuerte es el Backend pero soy flexible en general. Sé Html5 y Css3, Python y Django, JavaScript y NodeJS, y más.
+			</p>
 
-						<ul class="icons">
-							<li><a href="https://github.com/HugoCapitan" class="icon alt fa-github"><span class="label">Github</span></a></li>
-							<li><a href="https://twitter.com/Hugo_Capitan" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon alt fa-google"><span class="label">Instagram</span></a></li>
-						</ul>
+			<!-- Flecha al siguiente -->
+			<div class="siguiente">
+			<a href="#two"></a>
+			</div>
+		</div>
 
-						<p>O mándame un email</p>
-					<form method="post" action="#">
-						<div class="row uniform">
-							<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Nombre o Compañia" /></div>
-							<div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
-							<div class="12u$"><textarea name="message" id="message" placeholder="Cuentame que necesitas" rows="4"></textarea></div>
-							<div class="12u$">
-								<ul class="actions">
-									<li><input type="submit" value="Enviar" class="special" /></li>
-								</ul>
-							</div>
-						</div>
-					</form>
-				</div>
-				<footer>
-					<ul class="copyright">
-					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</footer>
-			</section>
+		<div class="item">
 
-	</body>
+	</section>
+
+</body>
 </html>
