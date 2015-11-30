@@ -74,6 +74,7 @@ header {
 
 .contenido {
 	background-color: white;
+	border-radius: 5px;
 	height: 92%;
 	margin-top: 2%;
 	margin-left: 15%;
