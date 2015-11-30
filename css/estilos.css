@@ -164,7 +164,7 @@ header {
 .icon-volver:hover {
 	color: #6f7577;
 	transition: 0.5s;
-	transform: rotate(360deg);
+	transform: rotate(-360deg);
 }
 
 @media screen and (max-width: 800px) {
