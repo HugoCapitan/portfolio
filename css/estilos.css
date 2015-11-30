@@ -115,6 +115,12 @@ header {
 	margin-left: 20px;
 	margin-right: 20px;
 	color: #5BAB80;
+	transition: 0.5s;
+}
+
+.links a:hover{
+	color: #6f7577;
+	transition: 0.5s;
 }
 
 .movil{
@@ -162,7 +168,6 @@ header {
 }
 
 .icon-volver:hover {
-	color: #6f7577;
 	transition: 0.5s;
 	transform: rotate(-360deg);
 }
