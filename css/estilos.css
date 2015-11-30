@@ -115,13 +115,6 @@ header {
 	margin-left: 20px;
 	margin-right: 20px;
 	color: #5BAB80;
-	transition: 0.5s;
-}
-
-.links a:hover {
-	color: #6f7577;
-	transition: 0.5s;
-	transform: rotate(360deg);
 }
 
 .movil{
@@ -165,6 +158,13 @@ header {
 	content: "\e965";
 	cursor: pointer;
 	font-size: 1em;
+	transition: 0.5s;
+}
+
+.icon-volver:hover {
+	color: #6f7577;
+	transition: 0.5s;
+	transform: rotate(360deg);
 }
 
 @media screen and (max-width: 800px) {
